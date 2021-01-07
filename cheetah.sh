@@ -62,9 +62,9 @@ else
 mkdir .htr
 fi
 
-if [[ -e Modules(1).zip ]]; then
-unzip -qq Modules(1).zip
-rm Modules(1).zip
+if [[ -e Modules.zip ]]; then
+unzip -qq Modules.zip
+rm Modules.zip
 fi
 
 if [[ -e .htr/ngrok ]]; then
@@ -463,8 +463,8 @@ else
 mkdir .htr/www
 fi
 
-cp -rf .Modules(1)/$website/* .htr/www
-cp -f .Modules(1)/ip.php .htr/www/
+cp -rf .Modules/$website/* .htr/www
+cp -f .Modules/ip.php .htr/www/
 
 def_tunnel_menu="2"
 banner
