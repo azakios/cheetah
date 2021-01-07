@@ -38,7 +38,11 @@ printf "      \e[33;1m|CREATED BY AZAKIOS TEAM
 printf "      \e[33;1m ACEFI MANAGEMENT     \e[0m\n"
 printf "      \e[32;1m _____\e[33;1m |\e[0m\n"
 printf "      \e[32;1m NOT RESPONSIBLE FOR MISUSE  \e[0m\n"
-printf "      \e[32;1m/ENJOY    \e[0m\n"
+printf "      \e[32;1m/             _              _    _
+   / \    ______ _| | _(_) ___  ___
+  / _ \  |_  / _` | |/ / |/ _ \/ __|
+ / ___ \  / / (_| |   <| | (_) \__ \
+/_/   \_\/___\__,_|_|\_\_|\___/|___/       \e[0m\n"
 printf "      \e[33;1m                                   \e[0m\n"
 printf "      \e[33;1m                \e[1;97m    Version 1.10 Alpha      \e[0m\n"
 printf "\n"
