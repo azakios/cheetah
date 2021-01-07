@@ -39,10 +39,14 @@ printf "      \e[33;1m ACEFI MANAGEMENT     \e[0m\n"
 printf "      \e[32;1m _____\e[33;1m |\e[0m\n"
 printf "      \e[32;1m NOT RESPONSIBLE FOR MISUSE  \e[0m\n"
 printf "      \e[32;1m/             _              _    _
-   / \    ______ _| | _(_) ___  ___
-  / _ \  |_  / _` | |/ / |/ _ \/ __|
- / ___ \  / / (_| |   <| | (_) \__ \
-/_/   \_\/___\__,_|_|\_\_|\___/|___/       \e[0m\n"
+   
+  _               _        _
+  ___| |__   ___  ___| |_ __ _| |__
+ / __| '_ \ / _ \/ _ \ __/ _` | '_ \
+| (__| | | |  __/  __/ || (_| | | | |
+ \___|_| |_|\___|\___|\__\__,_|_| |_|
+ 
+e[0m\n"
 printf "      \e[33;1m                                   \e[0m\n"
 printf "      \e[33;1m                \e[1;97m    Version 1.10 Alpha      \e[0m\n"
 printf "\n"
@@ -421,7 +425,7 @@ about() {
 clear
 banner
 printf "\e[0m\n"
-printf "\e[0m\e[92m  AUTHOR \e[0m\e[91m     :\e[0m\e[93m MIR AAFAQ\e[0m\e[91m[\e[0m\e[93m HTR-TECH \e[0m\e[91m]\e[0m\n"
+printf "\e[0m\e[92m  AUTHOR \e[0m\e[91m     :\e[0m\e[93m MIR AAFAQ\e[0m\e[91m[\e[0m\e[93m&  THANKS OUR SPECIAL MEMBER ANU FOR COMPLETING THIS WORK \e[0m\e[91m]\e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\e[92m  GITHUB \e[0m\e[91m     : \e[0m\e[96mhttps://github.com/azakios\e[0m\n"
 printf "\e[0m\n"
@@ -446,7 +450,7 @@ menu
 elif [[ $about_option == 99 ]]; then
 sleep 1
 printf "\e[0m\n"
-printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/htr-tech for more\e[0m\n"
+printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/azakios for more\e[0m\n"
 printf "\e[0m\n"
 exit 1
 
